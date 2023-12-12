@@ -1,0 +1,16 @@
+CREATE STAGE "LEAGUES"."PUBLIC".demo_stage;
+
+CREATE OR REPLACE TABLE football_leagues (
+id         VARCHAR (30) NOT NULL,
+team     VARCHAR (30) NOT NULL,
+played    INTEGER NOT NULL,
+won    INTEGER NOT NULL,
+drawn  INTEGER NOT NULL,
+lost   INTEGER NOT NULL,
+gf         INTEGER NOT NULL,
+ga         INTEGER NOT NULL,
+gd       INTEGER NOT NULL,
+points     INTEGER NOT NULL,
+league       VARCHAR (30) NOT NULL,
+created_at VARCHAR (30) NOT NULL
+);
